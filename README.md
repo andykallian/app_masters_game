@@ -9,7 +9,7 @@
 <h4 align="center">Uma simples aplicação CRUD feito com <a href="https://pt-br.reactjs.org/" target="_blank">React</a></h4>
 
 <p align="center">
-  <a href="https://andykallian.github.io/codeleap-engineering-test" target="_blank">Realtime</a> •
+  <a href="https://andykallian.github.io/app_masters_game/" target="_blank">Realtime</a> •
   <a href="#desafio">Desafio</a> •
   <a href="#ferramentas">Ferramentas</a> •
   <a href="#autor">Autor</a>
