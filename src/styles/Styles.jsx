@@ -146,6 +146,7 @@ export const StyledLink = styled(Link)`
   color: ${props => props.$color};
   padding: ${props => props.$padding};
   align-items: ${props => props.$alignitens};
+  align-self: ${props => props.$alignself};
   transition: ${props => props.$transition};
   text-align: ${props => props.$textalign};
   font-weight: ${props => props.$fontweight};
@@ -229,6 +230,10 @@ export const Container = styled.div`
   padding: ${props => props.$padding};
   transition: ${props => props.$transition};
   gap: ${props => props.$gap};
+
+  @media screen and (max-width: 940px) {
+    width: ${props => props.$smallScreenWidth};
+  }
 
 `;
 

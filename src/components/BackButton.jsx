@@ -6,7 +6,9 @@ function BackButton() {
 
   return (
     <>
-        <StyledLink 
+        <StyledLink
+        $width={"70%"}
+        $alignself={"center"} 
         $backgroundcolor={"#b22020"}
         $border={"2px solid #b22020"}
         $borderradius={"4px"}

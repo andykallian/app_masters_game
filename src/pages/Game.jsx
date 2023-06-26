@@ -173,7 +173,7 @@ const Game = () => {
         </div>
       ) : (
         game && (
-          <Container $width="100%" $display="flex" $flexdirection="column" $gap=".5rem">
+          <Container $width="800px" $smallScreenWidth="100%" $display="flex" $flexdirection="column" $gap=".5rem">
             <GameWrapper game={game} showLink={false} />
 
             <P $textalign="center" $fontsize="1.3rem" $marginbotton="2rem">
